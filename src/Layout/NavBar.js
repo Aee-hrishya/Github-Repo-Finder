@@ -32,10 +32,10 @@ const NavBar = () => {
                             </NavItem>) : (
                             <>
                                 <NavItem>
-                                    <NavLink tag={Link} to='/' className='text-white'>Sign-up</NavLink>
+                                    <NavLink tag={Link} to='/signup' className='text-white'>Sign-up</NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink tag={Link} to='/' className='text-white'>Sign-in</NavLink>
+                                    <NavLink tag={Link} to='/signin' className='text-white'>Sign-in</NavLink>
                                 </NavItem>
                             </>
                         )
