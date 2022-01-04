@@ -71,7 +71,7 @@ const Signup = () => {
                                             type='email'
                                             name='email'
                                             id='email'
-                                            placeholder='provide your email'
+                                            placeholder='Provide your email'
                                             value={email}
                                             onChange={e => setEmail(e.target.value)}
                                         />
@@ -86,7 +86,7 @@ const Signup = () => {
                                             type='password'
                                             name='password'
                                             id='password'
-                                            placeholder='your password here'
+                                            placeholder='Your password here'
                                             value={password}
                                             onChange={e => setPassword(e.target.value)}
                                         />
