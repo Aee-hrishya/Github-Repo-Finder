@@ -28,7 +28,7 @@ const NavBar = () => {
                         /*We are doing conditional rendering below as we want to display certain things when the user is logged in and others when the user is logged out*/
                         context.user ? (
                             <NavItem>
-                                <NavLink tag={Link} to='/' className='text-white'>Logout</NavLink>
+                                <NavLink onClick={()=>{context.setUser(null);}} className='text-white'>Logout</NavLink>{/*Setting the state as null which was the original state after the clicks on logout */}
                             </NavItem>) : (
                             <>
                                 <NavItem>
