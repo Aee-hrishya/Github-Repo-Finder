@@ -1,3 +1,20 @@
+#Github  Repo Finder
+
+This project is created using the Github API to fetch the Repos and other details of the specified user. The autthnetication of the users has been done
+using firebase.
+
+## Technologies used
+
+ - React.js
+ - Firebase( for email and password authentication )
+ - Github API
+ 
+## Functionality
+
+There are two separate pages for the user Signup and Signin and the authentication done using firebase doesnt allow invalid users to access the main page.
+Upon SignUp or SignIn the user is redirected to the home page and the form for searching the desired user is shown which on submission displays the user's image
+and the different public repos of the user.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
