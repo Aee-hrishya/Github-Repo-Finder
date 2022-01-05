@@ -1,4 +1,4 @@
-#Github  Repo Finder
+# Github  Repo Finder
 
 This project is created using the Github API to fetch the Repos and other details of the specified user. The autthnetication of the users has been done
 using firebase.
