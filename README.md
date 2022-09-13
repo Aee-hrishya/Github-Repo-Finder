@@ -1,6 +1,6 @@
 # Github  Repo Finder
 
-This project is created using the Github API to fetch the Repos and other details of the specified user. The autthnetication of the users has been done
+This project is created using the Github API to fetch the Repos and other details of the specified user. The authentication of the users has been done
 using firebase.
 
 ## Technologies used
